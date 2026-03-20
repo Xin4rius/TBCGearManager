@@ -2,7 +2,7 @@
 ## Title: TBCGearManager
 ## Notes: WotLK-style Equipment Manager functionality for TBC.
 ## Author: Xin4rius
-## Version: 1.0.0
+## Version: 1.0.2
 ## SavedVariables: TBCGearManagerDB
 
 Locales\enUS.lua
