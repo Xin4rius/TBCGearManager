@@ -1,45 +1,37 @@
 # TBCGearManager
 
-**TBCGearManager** is a professional, lightweight World of Warcraft addon designed specifically for modern TBC Anniversary / Classic clients. It faithfully reproduces the beloved **Wrath of the Lich King (WotLK)** built-in Equipment Manager interface while fully utilizing the native, modern `C_EquipmentSet` WoW API under the hood.
+TBCGearManager brings the Equipment Manager functionality to TBC Anniversary / Classic clients. It uses the native `C_EquipmentSet` WoW API for fast and reliable gear swapping.
 
 ![TBCGearManager UI](https://github.com/Xin4rius/TBCGearManager/blob/main/Media/Screenshot/Media1.png)
 
-## ✨ Features
+## Features
 
-* **Native API Integration:** No clunky item-by-item queues or database bloat. The addon directly interfaces with WoW's native `C_EquipmentSet` engine, allowing for instantaneous, locked-slot-free "one-shot" gear equipping.
-* **WotLK-Styled UI:** Seamlessly integrates a toggleable equipment grid pane right next to your `CharacterFrame` (Paper Doll).
-* **Drag-and-Drop Action Bars:** Simply click and drag any gear set icon from the manager grid directly onto your action bars for quick access. 
-* **Native Macro Support:** Fully supports standard `/equipset SetName` commands in your personalized macros.
-* **Advanced Icon Picker:** Includes a high-performance scrolling icon picker dialog loaded with thousands of official macro and item icons for customizing your sets.
-* **Complete Localization:** Professionally translated and supported right out of the box for 8 languages: 
-  * English (`enUS`), French (`frFR`), German (`deDE`), Spanish (`esES`), Russian (`ruRU`), Korean (`koKR`), Traditional Chinese (`zhTW`), and Portuguese (`ptBR`).
+* **Native API:** Uses WoW's built-in `C_EquipmentSet` engine for instantaneous gear equipping.
+* **WotLK UI:** Integrates a toggleable equipment grid next to the Character Frame.
+* **Action Bar Support:** Drag and drop gear set icons directly onto action bars.
+* **Macro Support:** Use `/equipset SetName` in standard macros.
+* **Localization:** Supports English, French, German, Spanish, Russian, Korean, Traditional Chinese, and Portuguese.
 
-## 📥 Installation
+## Installation
 
-1. Download the latest release from the repository.
-2. Extract the folder into your World of Warcraft addons directory:
-   `<WoW Directory>/_anniversary_/Interface/AddOns/`
-3. Ensure the folder is named exactly `TBCGearManager`.
-4. Launch World of Warcraft and make sure the addon is enabled in your AddOn list!
+1. Download the latest release.
+2. Extract the folder into your addons directory: `Interface/AddOns/`
+3. Ensure the folder is named `TBCGearManager`.
+4. Enable the addon in-game.
 
-## 🚀 Usage
+## Usage
 
-* **Open the Manager:** Open your Character window (`C` key by default) and click the new **"Gear Sets"** button in the top right corner.
-* **Create a Set:** Click **"New Set"**, type a name, choose your favorite icon from the scrolling grid, and click **"Validate"**. Your current equipment is instantly saved!
-* **Equip a Set:** Either **Double-Click** the set in the grid, or select it and click **"Equip"** at the bottom of the pane.
-* **Update/Modify:** Select an existing set and click **"Save"** to overwrite it with your currently worn gear, or click **"Modify"** to change its name and icon.
-* **Delete:** Select an existing set and click **"Delete"**. 
+* **Open UI:** Click the "Gear Sets" button in the top-right of your Character window (`C`).
+* **Create Set:** Click "New Set", enter a name, pick an icon, and click "Validate".
+* **Equip Set:** Double-click a set in the grid or select it and click "Equip".
+* **Modify:** Select a set and click "Save" to update it with current gear, or "Modify" to change name/icon.
+* **Delete:** Select a set and click "Delete".
 
-## 🛠️ Slash Commands
+## Slash Commands
 
-You can also interact with the manager through the chat using the `/tgm` command:
-* `/tgm` - Toggles the visibility of the TBCGearManager pane.
-* `/tgm import` - *(Advanced)* Safely imports and recovers any pre-existing gear sets you might have created through the hidden native WoW API via other addons.
+* `/tgm` - Toggle the manager window.
+* `/tgm import` - Import existing gear sets from the WoW API (useful if you've used other manager addons).
 
-## 🤝 Contributions
+## Contributions
 
-Contributions are welcome! If you have suggestions, bug reports, or want to add a new feature, feel free to open an issue or submit a pull request. I am open to collaboration to improve and expand this addon.
-
----
-
-*Authored by Xin4rius.*
+Open to suggestions, bug reports, and pull requests via issues or PRs.
