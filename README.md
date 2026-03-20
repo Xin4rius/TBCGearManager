@@ -36,6 +36,10 @@ You can also interact with the manager through the chat using the `/tgm` command
 * `/tgm` - Toggles the visibility of the TBCGearManager pane.
 * `/tgm import` - *(Advanced)* Safely imports and recovers any pre-existing gear sets you might have created through the hidden native WoW API via other addons.
 
+## 🤝 Contributions
+
+Contributions are welcome! If you have suggestions, bug reports, or want to add a new feature, feel free to open an issue or submit a pull request. I am open to collaboration to improve and expand this addon.
+
 ---
 
 *Authored by Xin4rius.*
