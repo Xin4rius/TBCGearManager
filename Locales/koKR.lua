@@ -1,0 +1,24 @@
+local _, TGM = ...
+if GetLocale() ~= "koKR" then return end
+TGM.L = TGM.L or {}
+local L = TGM.L
+
+L["ADDON_NAME"] = "TBCGearManager"
+L["EQUIPMENT_MANAGER"] = "장비 관리자"
+L["NEW_SET"] = "새 세트"
+L["SAVE"] = "저장"
+L["VALIDATE"] = "확인"
+L["EQUIP"] = "착용"
+L["DELETE"] = "삭제"
+L["MODIFY"] = "수정"
+L["UPDATE"] = "업데이트"
+L["CANCEL"] = "취소"
+L["ENTER_NAME"] = "세트 이름:"
+L["CONFIRM_DELETE"] = "'%s' 세트를 정말 삭제하시겠습니까?"
+L["CONFIRM_SAVE"] = "'%s' 세트를 현재 장비로 덮어쓰시겠습니까?"
+L["SET_SAVED"] = "'%s' 장비 세트가 저장되었습니다."
+L["SET_DELETED"] = "장비 세트가 삭제되었습니다."
+L["SET_EQUIPPED"] = "장비 세트를 착용했습니다."
+L["COMBAT_WARNING"] = "전투 중에는 무기만 변경할 수 있습니다!"
+L["HELP_TEXT"] = "세트를 선택하여 착용, 수정 또는 삭제하세요. 더블 클릭하면 빠르게 착용할 수 있습니다."
+L["IMPORTED_SETS"] = "WoW API에서 %d개의 세트를 가져왔습니다."

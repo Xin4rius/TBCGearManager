@@ -1,0 +1,24 @@
+local _, TGM = ...
+if GetLocale() ~= "frFR" then return end
+TGM.L = TGM.L or {}
+local L = TGM.L
+
+L["ADDON_NAME"] = "TBCGearManager"
+L["EQUIPMENT_MANAGER"] = "Gestionnaire d'équipement"
+L["NEW_SET"] = "Nouveau"
+L["SAVE"] = "Sauvegarder"
+L["VALIDATE"] = "Valider"
+L["EQUIP"] = "Equiper"
+L["DELETE"] = "Supprimer"
+L["MODIFY"] = "Modifier"
+L["UPDATE"] = "Mettre à jour"
+L["CANCEL"] = "Annuler"
+L["ENTER_NAME"] = "Nom de l'ensemble:"
+L["CONFIRM_DELETE"] = "Voulez-vous vraiment supprimer l'ensemble '%s'?"
+L["CONFIRM_SAVE"] = "Voulez-vous vraiment écraser l'ensemble '%s' avec votre équipement actuel ?"
+L["SET_SAVED"] = "Ensemble '%s' sauvegardé."
+L["SET_DELETED"] = "Ensemble supprimé."
+L["SET_EQUIPPED"] = "Ensemble équipé."
+L["COMBAT_WARNING"] = "Impossible de changer d'équipement non-arme en combat!"
+L["HELP_TEXT"] = "Sélectionnez un set pour l'équiper, le modifier ou le supprimer. Double-cliquez pour équiper rapidement."
+L["IMPORTED_SETS"] = "%d ensembles importés depuis l'API de WoW."

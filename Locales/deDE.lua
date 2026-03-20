@@ -1,0 +1,24 @@
+local _, TGM = ...
+if GetLocale() ~= "deDE" then return end
+TGM.L = TGM.L or {}
+local L = TGM.L
+
+L["ADDON_NAME"] = "TBCGearManager"
+L["EQUIPMENT_MANAGER"] = "Ausrüstungsmanager"
+L["NEW_SET"] = "Neues Set"
+L["SAVE"] = "Speichern"
+L["VALIDATE"] = "Bestätigen"
+L["EQUIP"] = "Ausrüsten"
+L["DELETE"] = "Löschen"
+L["MODIFY"] = "Ändern"
+L["UPDATE"] = "Aktualisieren"
+L["CANCEL"] = "Abbrechen"
+L["ENTER_NAME"] = "Setname eingeben:"
+L["CONFIRM_DELETE"] = "Möchten Sie das Set '%s' wirklich löschen?"
+L["CONFIRM_SAVE"] = "Möchten Sie das Set '%s' wirklich mit Ihrer aktuellen Ausrüstung überschreiben?"
+L["SET_SAVED"] = "Ausrüstungsset '%s' gespeichert."
+L["SET_DELETED"] = "Ausrüstungsset gelöscht."
+L["SET_EQUIPPED"] = "Ausrüstungsset ausgerüstet."
+L["COMBAT_WARNING"] = "Im Kampf können nur Waffen gewechselt werden!"
+L["HELP_TEXT"] = "Wählen Sie ein Set zum Ausrüsten, Ändern oder Löschen aus. Doppelklicken zum schnellen Ausrüsten."
+L["IMPORTED_SETS"] = "%d Ausrüstungssets von der WoW-API importiert."

@@ -1,0 +1,18 @@
+## Interface: 20504
+## Title: TBCGearManager
+## Notes: WotLK-style Equipment Manager functionality for TBC.
+## Author: Xin4rius
+## Version: 1.0.0
+## SavedVariables: TBCGearManagerDB
+
+Locales\enUS.lua
+Locales\frFR.lua
+Locales\deDE.lua
+Locales\esES.lua
+Locales\ruRU.lua
+Locales\koKR.lua
+Locales\zhTW.lua
+Locales\ptBR.lua
+
+Core.lua
+UI.lua

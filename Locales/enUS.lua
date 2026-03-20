@@ -1,0 +1,23 @@
+local _, TGM = ...
+TGM.L = TGM.L or {}
+local L = TGM.L
+
+L["ADDON_NAME"] = "TBCGearManager"
+L["EQUIPMENT_MANAGER"] = "Equipment Manager"
+L["NEW_SET"] = "New Set"
+L["SAVE"] = "Save"
+L["VALIDATE"] = "Validate"
+L["EQUIP"] = "Equip"
+L["DELETE"] = "Delete"
+L["MODIFY"] = "Modify"
+L["UPDATE"] = "Update"
+L["CANCEL"] = "Cancel"
+L["ENTER_NAME"] = "Enter Set Name:"
+L["CONFIRM_DELETE"] = "Are you sure you want to delete set '%s'?"
+L["CONFIRM_SAVE"] = "Are you sure you want to overwrite set '%s' with your current gear?"
+L["SET_SAVED"] = "Gear set '%s' saved."
+L["SET_DELETED"] = "Gear set deleted."
+L["SET_EQUIPPED"] = "Gear set equipped."
+L["COMBAT_WARNING"] = "Cannot change non-weapons in combat!"
+L["HELP_TEXT"] = "Select a set to equip, modify, or delete. Double-click to equip quickly."
+L["IMPORTED_SETS"] = "Imported %d sets from the WoW API."

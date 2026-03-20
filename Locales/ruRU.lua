@@ -1,0 +1,24 @@
+local _, TGM = ...
+if GetLocale() ~= "ruRU" then return end
+TGM.L = TGM.L or {}
+local L = TGM.L
+
+L["ADDON_NAME"] = "TBCGearManager"
+L["EQUIPMENT_MANAGER"] = "Управление экипировкой"
+L["NEW_SET"] = "Новый"
+L["SAVE"] = "Сохранить"
+L["VALIDATE"] = "Подтвердить"
+L["EQUIP"] = "Надеть"
+L["DELETE"] = "Удалить"
+L["MODIFY"] = "Изменить"
+L["UPDATE"] = "Обновить"
+L["CANCEL"] = "Отмена"
+L["ENTER_NAME"] = "Имя набора:"
+L["CONFIRM_DELETE"] = "Вы уверены, что хотите удалить набор '%s'?"
+L["CONFIRM_SAVE"] = "Вы уверены, что хотите перезаписать набор '%s' вашей текущей экипировкой?"
+L["SET_SAVED"] = "Набор '%s' сохранен."
+L["SET_DELETED"] = "Набор удален."
+L["SET_EQUIPPED"] = "Набор надет."
+L["COMBAT_WARNING"] = "Нельзя менять броню в бою!"
+L["HELP_TEXT"] = "Выберите набор, чтобы надеть, изменить или удалить его. Двойной клик для быстрого надевания."
+L["IMPORTED_SETS"] = "Импортировано %d наборов из WoW API."
