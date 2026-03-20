@@ -2,7 +2,7 @@
 
 **TBCGearManager** is a professional, lightweight World of Warcraft addon designed specifically for modern TBC Anniversary / Classic clients. It faithfully reproduces the beloved **Wrath of the Lich King (WotLK)** built-in Equipment Manager interface while fully utilizing the native, modern `C_EquipmentSet` WoW API under the hood.
 
-![TBCGearManager UI](./media/screenshot/Media1.png)
+![TBCGearManager UI](https://github.com/Xin4rius/TBCGearManager/blob/main/Media/Screenshot/Media1.png)
 
 ## ✨ Features
 
